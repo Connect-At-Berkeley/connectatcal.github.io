@@ -1,0 +1,25 @@
+.bkg-circles {
+    z-index: -1;
+}
+#bear {
+    padding-top: 15vh;
+    padding-left: 15vw;
+}
+#bear-text {
+    padding-top: 15vh;
+    padding-right: 15vw;
+    font-family: 'Lora', serif;
+}
+h2 {
+    font-size: 36;
+}
+p {
+    font-size: 28;
+}
+.learn-more {
+    padding: 10px;
+    background-color: #F6D674;
+    border: none;
+    font-family: 'Karla', sans-serif;
+
+}
