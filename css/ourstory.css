@@ -1,25 +1,50 @@
 .bkg-circles {
     z-index: -1;
+    height: 50vh;
 }
 #bear {
     padding-top: 15vh;
-    padding-left: 15vw;
+    padding-left: 20vw;
 }
 #bear-text {
-    padding-top: 15vh;
-    padding-right: 15vw;
+    padding-top: 25vh;
+    padding-right: 9vw;
     font-family: 'Lora', serif;
 }
 h2 {
-    font-size: 36;
+    font-size: 36px !important;
 }
 p {
-    font-size: 28;
+    font-size: 20px;
 }
 .learn-more {
-    padding: 10px;
     background-color: #F6D674;
     border: none;
     font-family: 'Karla', sans-serif;
+    padding: 14px 40px !important;
+    font-size: 24px;
+    font-weight: normal !important;
+
+}
+.caption {
+    width: 2vw;
+    height: auto;
+    font-size: 28 !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: 'Karla', sans-serif !important;
+}
+h1 {
+    color: white;
+    float: right;
+}
+.vision {
+    text-align: end;
+    font-family: 'Lora', serif;
+}
+.mission {
+    font-family: 'Lora', serif;
 
 }
