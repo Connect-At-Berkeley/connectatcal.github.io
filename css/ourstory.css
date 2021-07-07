@@ -1,6 +1,9 @@
-.bkg-circles {
+.bkg-circles-right {
     z-index: -1;
-    height: 50vh;
+}
+.bkg-circles-left {
+    z-index: -1;
+    position: absolute;
 }
 #bear {
     padding-top: 15vh;
