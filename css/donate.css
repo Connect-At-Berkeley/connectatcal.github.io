@@ -1,3 +1,23 @@
+p, a{
+ font-family: 'karla';
+ font-weight: lighter;
+}
+
+a.nav-link{
+    font-family: 'karla';
+    color:white;
+}
+
+.navbar .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Lora';
+}
+
 body{
     display:flex;
     flex-direction:column;
@@ -27,13 +47,31 @@ img#mining_circle{
     display: flex;
     flex-direction: row;
     padding: 10vh 10vw 10vh 10vw;
+    background: #3B3B3B;
+}
+.footer .top p, h3{
+    color:white;
 }
 .footer .bottom{
     padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 .footer img{
     height:5vh;
 }
 img.ocf{
     height:8vh;
+}
+
+.footer .left, .footer .mid, .footer .right{
+    margin: 0vh 5vw 0vh 5vw;
+    text-align: center;
+}
+
+.footer .left{
+    text-align: left;
+}
+
+.footer .right p{
+    padding-top:2vh;
 }
