@@ -11,6 +11,7 @@
     padding: 10vw;
 }
 
+
 /* copied lol */
 
 .flip-card {
@@ -44,4 +45,8 @@ backface-visibility: hidden;
 
 .flip-card-back {
 transform: rotateY(180deg);
+}
+.puzzle-caption {
+    font-size: 40px;
+    color: red
 }
