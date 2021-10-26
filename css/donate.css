@@ -137,6 +137,7 @@ a.nav-link{
     color:white;
 }
 
+
 .navbar .left{
     display: flex;
     flex-direction: row;
@@ -155,6 +156,11 @@ justify-content-end{
     margin-top:0px;
 }
 
+.container-fluid{
+    display: block;
+    position: sticky;
+    top: 0;
+}
 
 /*****************************************/
 /**************FOOTER STYLE***************/
