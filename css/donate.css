@@ -129,12 +129,35 @@ h4 p{
     margin-top: 5vh;
 }
 
+button{
+    font-weight: bold;
+}
 /*****************************************/
 /**************HEADER STYLE***************/
 /*****************************************/
+.nav-link {
+    color: white !important;
+    font-family: 'Karla', sans-serif !important;
+}
+.navbar .dropdown-menu {
+    background-color: #056BA5;
+  }
+  
+  .navbar .dropdown-item:hover {
+      background-color: #0786cf;
+      color: white;
+    }
+  .navbar .dropdown-item {
+      color: white;
+      font-family: 'Karla', sans-serif;
+  }
+
+
 a.nav-link{
     font-family: 'Karla', sans-serif;
     color:white;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 
@@ -160,6 +183,7 @@ justify-content-end{
     display: block;
     position: sticky;
     top: 0;
+    z-index: 20;
 }
 
 /*****************************************/
