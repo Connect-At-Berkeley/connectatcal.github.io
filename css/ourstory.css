@@ -5,6 +5,11 @@
     z-index: -1;
     position: absolute;
 }
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
 #bear {
     padding-top: 15vh;
     padding-left: 20vw;

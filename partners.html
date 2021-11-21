@@ -4,6 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo.png" />
+
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -24,23 +26,32 @@
   </head>
   <body>
       <div class="container-fluid" style="background-color: #3C3C3C;">
-        <nav class="navbar navbar-dark nav-left">
+        <nav class="navbar navbar-dark">
             <div class="left">
-                <img id='logo' src="assets/img/logo.png">
-                 <h3>Connect @ Cal</h3>
+                <a href="index.html">
+                  <img id="logo" src="assets/img/logo.png">
+                </a>
+                <h3> <a class="no-color-link" href="index.html">Connect@Cal </a></h3>
             </div>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      About
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="ourstory.html">Our Story</a>
+                      <a class="dropdown-item" href="ourteam.html">Our Team</a>
+                      <a class="dropdown-item" href="partners.html">Our Impact</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                <a class="nav-link" href="FAQ.html">FAQ</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Donate</a>
+                    <a class="nav-link" href="donate.html">Donate</a>
                 </li>
             </ul>
         </nav>
@@ -52,8 +63,12 @@
         <img id="campanile" src="assets/img/campanile with shadow.png" alt="campanile">
         <div class="right">
             <h1>Our Impact</h1>
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </h2>
+            <p>
+                Our collaborators are organizations with leaders we have met who have helped shape the direction of our service. With their partnership, we have been able to better direct students to resources.
+                </p>
+                <p>
+                Our board of advisors play an active role to ensure our service is community-rooted and community-advised. We collaborate with these groups to ensure our service and resources span across communities and that we can effectively serve as many students as possible.*
+            </p>
                 
             <!-- Trigger/Open The Modal -->
             <button class="partners-button"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcBAavl37oDS5k7CETTCHGKHVLMusXvEIOpG9NcREw8czrJg/viewform" target="_blank"> Partner with us</a></button>

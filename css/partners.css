@@ -19,7 +19,10 @@ body{
     display:flex;
     flex-direction:column;
 }
-
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
 
 /*****************************************/
 /**************DONATE TOP STYLE***********/
