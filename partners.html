@@ -12,59 +12,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400&display=swap" rel="stylesheet"> 
 
     <!-- Personal CSS -->
-    <link rel="stylesheet" href="css/donate.css"> 
+    <link rel="stylesheet" href="css/partners.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    
-    <!--JS-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
     <title>Connect @ Cal</title>
   </head>
   <body>
-    <div class="container-fluid"  style="background-color: #3C3C3C;">
-        <nav class="navbar navbar-dark">
+      <div class="container-fluid" style="background-color: #3C3C3C;">
+        <nav class="navbar navbar-dark nav-left">
             <div class="left">
-                <a href="index.html"><img id="logo" src="assets/img/logo.png"></a>
-                <h3> Connect@Cal</h3>
+                <img id='logo' src="assets/img/logo.png">
+                 <h3>Connect @ Cal</h3>
             </div>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      About
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="ourstory.html">Our Story</a>
-                      <a class="dropdown-item" href="ourteam.html">Our Team</a>
-                      <a class="dropdown-item" href="ourimpact.html">Our Impact</a>
-                    </div>
-                  </li>
-                <li class="nav-item">
-                <a class="nav-link" href="FAQ.html">FAQ</a>
+                <a class="nav-link" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="donate.html">Donate</a>
+                <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Donate</a>
                 </li>
             </ul>
         </nav>
     </div>
 
+  
+      
     <div class="donate-top">
-        <img id="mining_circle" src="assets/img/mining_circle.svg" alt="mining circle image">
+        <img id="campanile" src="assets/img/campanile with shadow.png" alt="campanile">
         <div class="right">
-            <h1>Connect a Cal Student!</h1>
-            <h2>Connect@Cal is proud to be a stepping stone in student’s success 
-                on and off-campus.</h2>
+            <h1>Our Impact</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </h2>
                 
             <!-- Trigger/Open The Modal -->
-            <button class="donate-button" id="myBtn">Donate Now</button>
+            <button class="partners-button"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcBAavl37oDS5k7CETTCHGKHVLMusXvEIOpG9NcREw8czrJg/viewform" target="_blank"> Partner with us</a></button>
 
             <!-- The Modal -->
             <div id="myModal" class="modal">
@@ -101,37 +93,49 @@
             </div> 
         </div>
     </div>
-    <img class='donatedots' src='assets/img/donatedots.png' alt='colorful dots'>
-    <div class="donate-mid"> 
-        <div class="left">
-            <img class="mc_rings" src="assets/img/mining_circle_rings.svg" alt="mining circle rings image">
-            <h4 class="ring1"><p>220+</p>resources connected</h4>
-            <h4 class='ring2'><p>4.0 stars</p>overall rating</h4>
-            <h4 class='ring3'><p>75%</p>returning users</h4>
-        </div>
-        <div class="right">
-            <h1>Why Donate?</h1>
-            <p class='one'> By providing a wide range of resources to 
-                students, we are helping them find their home in such an immense campus. As an organization, we strive to expand our services to 
-                every student at UC Berkeley, yet we do not have sufficient funds
-                 to accomplish this. Thus, we hope to acquire additional funds from
-                 the generosity of friends, family, alumni, and other supporters.
-            </p>
-            <p class='two'> Your donation will be directly spent on outreach and operation expenses. We have received great feedback on our service and 
-                would love to spread it to even more of the campus. Alongside 
-                this, we have invested in numerous integration platforms that 
-                have allowed us to increase the efficiency and quality of our 
-                resource responses.
-            </p>
-            <p class='three'>
-                Please consider donating to our organization to continue supporting 
-                our fellow Cal bears! All donations to the Connect At Berkeley are tax-deductible as allowed by law.*
-            </p>
-            <button class="donate-button" id="myBtn1">Donate Now</button>
+    <br></br>
+    <br></br>
+    <br></br>
+    <div class="partner-mid"> 
+       
+        <div style="text-align: center;" class="right">
+        
+            <h1>We've collaborated with...</h1>
+            <br></br>
+
+            <img id="collaborated" src="assets/img/collaborated.png" alt="collaborated">
+            <!--<img id="career center" src="assets/img/career.png" alt="career center">
+            &emsp; &emsp;
+            <img id="apasd" src="assets/img/apasd.png" alt="apasd">
+            &emsp; &emsp;
+            <img id="basicneeds" src="assets/img/basicneeds.png" alt="basic needs"><-->
+
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+        
+            <h1>We've partnered with...</h1>
+              <br></br>
+
+            <img id="partnered" src="assets/img/partnered.png" alt="partnered">
+        
+            
+            
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+
+
+
+            <button class="partners-button"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcBAavl37oDS5k7CETTCHGKHVLMusXvEIOpG9NcREw8czrJg/viewform" target="_blank"> Partner with us</a></button>
         </div>
     </div>
-    <div class="donate-bottom">
-        <p>*Connect At Berkeley is a sponsored student group of Associated Students of the University of California, a non-profit unincorporated association, IRS Code 501c3. Your donation to the ASUC on behalf of ASUC/Connect At Berkeley may be claimed as charitable. Documentation of the ASUC's Tax Identification or a tax deductible receipt is available upon request</p>
+    <div style="text-align: center;" class="donate-bottom">
+        <p>*Collaborators and members of board of advisors do not reflect the opinion, endorsement, or
+            sponsorship of the organization, and are used for title purposes only.</p></p>
     </div>
     <div class="footer">
         <div class="top">
@@ -151,7 +155,7 @@
                     <p><a href="https://www.instagram.com/connectcal/?hl=en"><img src="assets/img/insta.png" alt="instagram logo link"></a></p>
                 </div>
             </div>
-            <div class="right">
+            <div style="text-align: center;" class="right">
                 <a href="https://www.ocf.berkeley.edu/"><img class="ocf" src="assets/img/ocf.png" alt="hosted by the ocf image"></a>
                 <p>We are a student group acting independently of the University of California. We take full responsibility for our organization and this website. </p>
             </div>
