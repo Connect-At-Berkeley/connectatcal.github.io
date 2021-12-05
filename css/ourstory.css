@@ -5,11 +5,13 @@
     z-index: -1;
     position: absolute;
 }
+p, a{
+    font-family: 'Karla', sans-serif;
+}
 a {
     color: white !important;
     text-decoration: none !important;
 }
-
 #bear {
     padding-top: 15vh;
     padding-left: 20vw;
@@ -24,13 +26,14 @@ h2 {
 }
 p {
     font-size: 20px;
+    font-family: 'Karla', sans-serif;
+
 }
 .learn-more {
     background-color: #F6D674;
     border: none;
     font-family: 'Karla', sans-serif;
     font-size: 16px;
-    font-weight: normal !important;
 
 }
 .caption {
@@ -49,10 +52,13 @@ h1 {
 }
 .vision {
     text-align: end;
-    font-family: 'Lora', serif;
+    font-family: 'Karla', sans-serif;
+    font: normal;
 }
 .mission {
-    font-family: 'Lora', serif;
+    font-family: 'Karla', sans-serif;
+    font: normal;
+
 }
 
 
@@ -173,7 +179,7 @@ a.dropdown-item{
     color:white;
 }
 .footer .bottom{
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
     padding-top: 5vh;
 }
 .footer img{
