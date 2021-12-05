@@ -7,6 +7,19 @@
 p, a{
     font-family: 'Karla', sans-serif;
 }
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+/* .no-color-link a:hover {
+    color: white;
+
+}
+.no-color-link a{
+    color: white;
+
+} */
 
 h1{
     font-family: 'Lora';

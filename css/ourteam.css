@@ -11,6 +11,11 @@
     padding: 10vw;
 }
 
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
 
 /* copied lol */
 
@@ -42,6 +47,14 @@ height: 100%;
 backface-visibility: hidden;
 }
 
+.card-size {
+    width: 20vw;
+    height: auto;
+}
+
+.about-padding {
+    padding-left: 40px;
+}
 
 .flip-card-back {
 transform: rotateY(180deg);
@@ -49,4 +62,8 @@ transform: rotateY(180deg);
 .puzzle-caption {
     font-size: 40px;
     color: red
+}
+.spacing {
+    padding-left: 50px;
+    padding-right: 50px;
 }
