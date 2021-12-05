@@ -312,5 +312,126 @@ body{
 
 
 
+/*****************************************/
+/**************MOBILE STYLE***************/
+/*****************************************/
 
+.mobile-header{
+    display: none;
+}
+#close{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .sather-gate {
+        width: 50vw;
+        margin: 0;
+    }
+    
+    .home-landing .right{
+        align-items: center;
+        text-align: center;
+    }
+    
+    .home-landing{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    
+
+    .hit-content{
+        flex-direction: column;
+    }
+    .hit-content div{
+        margin: 5vh 0vw 5vh 0vw;
+
+    }
+
+
+    .services{
+        text-align: center;
+    }
+    .services-content{
+        flex-direction: row;
+        text-align: center;
+    }
+    .sc1, .sc2{
+        margin-top:5vh;
+    }
+    
+
+    .what-people-say{
+        text-align: center;
+    }
+    .testimonials{
+        flex-direction: column;
+    }
+    .testimonials p{
+        margin-bottom:5vh;
+    }
+
+
+    .footer .top{
+        flex-direction: column;
+    }
+    .footer .top div{
+        margin-bottom:6vh;
+    }
+    .footer .top .mid{
+        text-align: left;
+    }
+
+
+    .container-fluid{
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+    }
+    #close{
+        display: block;
+    }
+
+    .container-fluid{
+        height:100vh;
+    }
+    .navbar .left{
+        display: none !important;
+    }
+    .justify-content-end{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    transform: translateY(25vh);
+    }
+    a.nav-link{
+        font-size: 30px;
+    }
+    #close, .hamburger{
+        width:6vw;
+        position: absolute;
+        top: 5vh;
+        right: 4vw;
+        filter: invert(1);
+    }
+    #close:hover, .hamburger:hover{
+        cursor: pointer;
+    }
+    .hamburger{
+        position: absolute;
+        top: 3vh;
+        right: 6vw;
+        width:8vw;
+    }
+    .mobile-header{
+        background: #3B3B3B;
+    }
+    #logo{
+        padding-left: 1vw;
+    }
+
+
+  }
 

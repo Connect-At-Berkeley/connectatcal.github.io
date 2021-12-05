@@ -21,3 +21,16 @@ window.smoothScroll = function(target) {
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
+
+
+var closeIt = document.getElementById('close');
+var mobileHeader = document.getElementsByClassName('container-fluid');
+var hamburger = document.getElementsByClassName('hamburger');
+
+closeIt.onclick = function(){
+    mobileHeader[0].style.display='none';
+    };
+
+hamburger[0].onclick = function(){
+    mobileHeader[0].style.display='block';
+};
