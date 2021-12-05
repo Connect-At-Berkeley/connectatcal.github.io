@@ -1,3 +1,7 @@
+.body{
+    overflow-x: hidden;
+}
+
 .bkg-circles-right {
     z-index: -1;
 }
@@ -207,10 +211,6 @@ img.ocf, .footer h3{
 .socials{
     display: flex;
     justify-content: space-evenly;
-}
-
-img.ocf{
-    margin-left:3vw;
 }
 
 .footer a{

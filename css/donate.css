@@ -12,6 +12,7 @@ h2{
 body{
     display:flex;
     flex-direction:column;
+    overflow-x:hidden;
 }
 
 
@@ -240,9 +241,6 @@ img.ocf, .footer h3{
     justify-content: space-evenly;
 }
 
-img.ocf{
-    margin-left:3vw;
-}
 
 .footer a{
     text-decoration: none;
