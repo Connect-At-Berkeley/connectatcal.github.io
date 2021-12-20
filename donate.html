@@ -56,15 +56,19 @@
             </ul>
         </nav>
     </div>
-    <div class="donate-top">
-        <img id="mining_circle" src="assets/img/mining_circle.svg" alt="mining circle image">
-        <div class="right">
-            <h1>Connect a Cal Student!</h1>
-            <h4>Connect@Cal is proud to be a stepping stone in student’s success 
-                on and off-campus.</h4>
-                
-            <!-- Trigger/Open The Modal -->
-            <button class="donate-button" id="myBtn">Donate Now</button>
+    <div class="donate-top row">
+        <div class="col-sm-12 col-md-6">
+            <img id="mining_circle img-fluid" src="assets/img/mining_circle.svg" alt="mining circle image">
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <div class="">
+                <h1>Connect a Cal Student!</h1>
+                <h4>Connect@Cal is proud to be a stepping stone in student’s success 
+                    on and off-campus.</h4>
+                    
+                <!-- Trigger/Open The Modal -->
+                <button class="donate-button" id="myBtn">Donate Now</button>
+            </div>
 
             <!-- The Modal -->
             <div id="myModal" class="modal">
@@ -102,11 +106,10 @@
             </div> 
         </div>
     </div>
-    <img class='donatedots reveal' src='assets/img/donatedots.png' alt='colorful dots'>
+    <img class='donatedots reveal img-fluid' src='assets/img/donatedots.png' alt='colorful dots'>
     <div class="donate-mid reveal"> 
         <div class="left">
             <img class="mc_rings" src="assets/img/donate-stats.svg" alt="mining circle rings image">
-
         </div>
         <div class="right">
             <h1>Why Donate?</h1>
@@ -132,27 +135,30 @@
     <div class="donate-bottom reveal">
         <p>*Connect At Berkeley is a sponsored student group of Associated Students of the University of California, a non-profit unincorporated association, IRS Code 501c3. Your donation to the ASUC on behalf of ASUC/Connect At Berkeley may be claimed as charitable. Documentation of the ASUC's Tax Identification or a tax deductible receipt is available upon request</p>
     </div>
-    <div class="footer">
-        <div class="top">
-            <div class="left">
+<!-- Footer-->
+<footer class="footer text-center footer-design">
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center top">
+            <!-- Footer Location-->
+            <div class="col-sm-4 order-sm-12">
                 <h3>Help Us Improve</h3>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScr-J-TCGklmGPwNNIspKng05tQWN6HGYrMc9ysidS8k0CDPw/viewform"><p>Give Feedback</p></a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfaH-2kq2ihm58lDqu3fUdyOXFDzpzotspphP7ij95Fq8cl4Q/viewform"><p>Report a Bug</p></a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcBAavl37oDS5k7CETTCHGKHVLMusXvEIOpG9NcREw8czrJg/viewform"><p>Partner With Us</p></a>
+                <a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScr-J-TCGklmGPwNNIspKng05tQWN6HGYrMc9ysidS8k0CDPw/viewform"><p>Give Feedback</p></a>
+                <a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfaH-2kq2ihm58lDqu3fUdyOXFDzpzotspphP7ij95Fq8cl4Q/viewform"><p>Report a Bug</p></a>
+                <a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfcBAavl37oDS5k7CETTCHGKHVLMusXvEIOpG9NcREw8czrJg/viewform"><p>Partner With Us</p></a>
                 <a href="/donate.html" id="myBtn2"><p>Donate</p></a>
-
             </div>
-            <div class="mid">
+            <!-- Footer Social Icons-->
+            <div class="col-sm-4 order-sm-12">
                 <h3>Contact Us</h3>
                 <p>hello@connected@berkeley.edu</p>
                 <div class="socials">
-                    <p><a href="https://www.facebook.com/connect.cal/"><img src="assets/img/fb.png" alt="facebook logo link"></a></p>
-                    <p><a href="https://www.linkedin.com/company/connect-cal/"><img src="assets/img/in.png" alt="linkedin logo link"></a></p>
-                    <p><a href="https://www.instagram.com/connectcal/?hl=en"><img src="assets/img/insta.png" alt="instagram logo link"></a></p>
+                    <p><a target = "_blank" href="https://www.facebook.com/connect.cal/"><img src="assets/img/fb.png" alt="facebook logo link"></a></p>
+                    <p><a target = "_blank" href="https://www.linkedin.com/company/connect-cal/"><img src="assets/img/in.png" alt="linkedin logo link"></a></p>
+                    <p><a target = "_blank" href="https://www.instagram.com/connectcal/?hl=en"><img src="assets/img/insta.png" alt="instagram logo link"></a></p>
                 </div>
             </div>
-            <div class="right">
-                <a href="https://www.ocf.berkeley.edu/"><img class="ocf" src="assets/img/ocf.png" alt="hosted by the ocf image"></a>
+            <div class="col-sm-4 order-sm-12">
+                <a target = "_blank" href="https://www.ocf.berkeley.edu/"><img class="ocf" src="assets/img/ocf.png" alt="hosted by the ocf image"></a>
                 <p>We are a student group acting independently of the University of California. We take full responsibility for our organization and this website. </p>
             </div>
         </div>
@@ -160,6 +166,7 @@
             <p>Copyright @2021 Connect@Cal</p>
         </div>
     </div>
+</footer>
     
   <script src="scripts/donate.js"></script>
   </body>

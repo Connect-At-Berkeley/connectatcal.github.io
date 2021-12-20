@@ -5,15 +5,18 @@
     position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: 3s all ease;
+    transition: 1s all ease;
   }
   .reveal.active{
     transform: translateY(0);
     opacity: 1;
   }
 
+.footer-design {
+    font-family: 'Karla', sans-serif !important;
 
-p, a{
+}
+/* p, a{
     font-family: 'Karla', sans-serif;
 }
 
@@ -21,7 +24,7 @@ a{
     color: #3B3B3B !important;
     text-decoration: none !important;
 
-}
+} */
 
 h1{
     font-family: 'Karla', sans-serif;
@@ -47,6 +50,7 @@ img#campanile{
     margin-right:5vw;
     margin-left: 9vw;
 }
+
 .donate-top div.right{
     margin-left:2vw;
 }

@@ -5,7 +5,7 @@
     position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: 3s all ease;
+    transition: 1s all ease;
   }
   .reveal.active{
     transform: translateY(0);
@@ -87,16 +87,24 @@ body{
 /***************************/
 /********Landing************/
 /***************************/
+@media (min-width: 576px) {
+    #bear{
+        width:5vw;
+        height: auto;
+    }
+  }
+  @media (min-width: 768px) {
+    #bear{
+        width:37vw;
+        margin-left:2vw;
+    }
+    #bear-text{
+        padding-left:10vw;
+        padding-right:10vw;
+    
+    }
+  }
 
-#bear{
-    width:37vw;
-    margin-left:2vw;
-}
-#bear-text{
-    padding-left:20vw;
-    padding-right:15vw;
-
-}
 button.learn-more{
     padding: 1.5vh 3vw;
     margin-top:4vh;
