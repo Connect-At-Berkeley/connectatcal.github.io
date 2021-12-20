@@ -16,6 +16,9 @@ header {
     display:flex;
     align-items: center;
   }
+  h2 {
+    font-family: 'Karla', sans-serif;
+  }
   .team-caption {
     padding: 10vw;
     font-family: 'Karla', sans-serif;
@@ -39,8 +42,6 @@ header {
   
   .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
   perspective: 1000px;
   }
   
@@ -70,6 +71,10 @@ header {
     height: auto;
   }
   
+  .center-now {
+      padding-left: 20vw;
+      padding-right: 20vw;
+  }
   .about-padding {
     padding-left: 40px;
   }
@@ -77,10 +82,8 @@ header {
   .flip-card-back {
   transform: rotateY(180deg);
   }
-  .puzzle-caption {
-    font-size: 40px;
-    color: red
-  }
+
+
   .spacing {
     padding-left: 50px;
     padding-right: 50px;
