@@ -1,3 +1,17 @@
+/*****************************************/
+/**************ANIMATION***************/
+/*****************************************/
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 3s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
 p, a{
     font-family: 'Karla', sans-serif;
 }
@@ -156,7 +170,7 @@ button{
 a.nav-link{
     font-family: 'Karla', sans-serif;
     font-size: 18px;
-    font-weight: bold;
+
 }
 a.dropdown-item{
     font-size: 18px;
