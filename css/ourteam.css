@@ -1,69 +1,196 @@
-.header {
+/*****************************************/
+/**************ANIMATION***************/
+/*****************************************/
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 3s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+header {
     display:flex;
     align-items: center;
-}
-.team-caption {
+  }
+  .team-caption {
     padding: 10vw;
     font-family: 'Karla', sans-serif;
     font-size: 36 !important;
-}
-.team-picture {
+  }
+  .team-picture {
     padding: 10vw;
-}
-
-a {
+  }
+  
+  a {
     color: white !important;
     text-decoration: none !important;
-}
-
-
-/* copied lol */
-
-.flip-card {
-background-color: transparent;
-width: 300px;
-height: 300px;
-perspective: 1000px;
-}
-
-.flip-card-inner {
-position: relative;
-width: 100%;
-height: 100%;
-text-align: center;
-transition: transform 0.6s;
-transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-position: absolute;
-width: 100%;
-height: 100%;
--webkit-backface-visibility: hidden;
-backface-visibility: hidden;
-}
-
-.card-size {
+  }
+  
+  .body{
+    overflow-x: hidden;
+  }
+  
+  
+  /* copied lol */
+  
+  .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  }
+  
+  .card-size {
     width: 20vw;
     height: auto;
-}
-
-.about-padding {
+  }
+  
+  .about-padding {
     padding-left: 40px;
-}
-
-.flip-card-back {
-transform: rotateY(180deg);
-}
-.puzzle-caption {
+  }
+  
+  .flip-card-back {
+  transform: rotateY(180deg);
+  }
+  .puzzle-caption {
     font-size: 40px;
     color: red
-}
-.spacing {
+  }
+  .spacing {
     padding-left: 50px;
     padding-right: 50px;
+  }
+  
+  /*****************************************/
+/**************HEADER STYLE***************/
+/*****************************************/
+.nav-link {
+    color: rgb(0, 0, 0) !important;
+    font-family: 'Karla', sans-serif !important;
+}
+.navbar .dropdown-menu {
+    background-color: #387EA5;
+  }
+  
+  .navbar .dropdown-item:hover {
+      background-color: #2B6180;
+      color: rgb(0, 0, 0);
+    }
+  .navbar .dropdown-item {
+      color: rgb(0, 0, 0);
+      font-family: 'Karla', sans-serif;
+  }
+
+
+a.nav-link{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+
+}
+a.dropdown-item{
+    font-size: 18px;
+}
+
+.navbar .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#logo{
+    height: 7vh;
+    margin: 2vh 1vw 2vh 1vw;
+}
+.container-fluid{
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+
+/*****************************************/
+/**************FOOTER STYLE***************/
+/*****************************************/
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .top{
+    display: flex;
+    flex-direction: row;
+    padding: 10vh 10vw 10vh 10vw;
+    background: #3B3B3B;
+}
+.footer .top p, h3{
+    color:white;
+}
+.footer .bottom{
+    padding-bottom: 3vh;
+    padding-top: 5vh;
+}
+.footer img{
+    height:5vh;
+}
+img.ocf{
+    height:8vh;
+}
+
+.footer .left, .footer .mid, .footer .right{
+    margin: 0vh 5vw 0vh 5vw;
+    text-align: center;
+}
+
+.footer .left, .footer .right{
+    text-align: left;
+}
+
+.footer .left{
+    white-space: nowrap;
+}
+
+.footer .left p{
+    margin:0;
+}
+
+img.ocf, .footer h3{
+    padding-bottom:2vh;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img.ocf{
+    margin-left:3vw;
+}
+
+.footer a{
+    text-decoration: none;
 }
