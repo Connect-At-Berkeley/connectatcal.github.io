@@ -249,24 +249,49 @@ body{
 /*****************************************/
 /**************HOME LANDING***************/
 /*****************************************/
-
-.home-landing{
-    display:flex;
-    flex-direction: row;
-    align-items:center;
-    padding: 12vh 12vw 12vh 12vw;
-}
-
-.home-landing .right{
-    display: flex;
-    flex-direction: column;
-    margin: 5vh 2vw 0vh 3vw;
-}
-
-.sather-gate{
-    width:30vw;
-    margin: 5vh 5vw 0vh 0vw;
-}
+@media (max-width: 576px) {
+    .home-landing{
+        flex-direction: row;
+        align-items:center;
+        padding: 12vh 12vw 12vh 12vw;
+    }
+    
+    .home-landing .right{
+        flex-direction: column;
+        margin: 5vh 2vw 0vh 3vw;
+    }
+    
+    .sather-gate{
+        width:1vw;
+        opacity: 0;
+    }
+    .contain {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    
+  }
+  @media (min-width: 768px) {
+    .home-landing{
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        padding: 12vh 12vw 12vh 12vw;
+        
+    }
+    
+    .home-landing .right{
+        display: flex;
+        flex-direction: column;
+        margin: 5vh 2vw 0vh 3vw;
+    }
+    
+    .sather-gate{
+        width:30vw;
+        margin: 5vh 5vw 0vh 0vw;
+    }
+    
+  }
 
 
 /*****************************************/

@@ -83,14 +83,20 @@ body{
 .row{
     padding-bottom:0vh;
 }
+.contain {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
 
 /***************************/
 /********Landing************/
 /***************************/
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     #bear{
-        width:5vw;
+        width:50vw;
         height: auto;
+        text-align: center;
+
     }
   }
   @media (min-width: 768px) {
