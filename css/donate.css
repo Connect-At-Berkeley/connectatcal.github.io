@@ -86,6 +86,9 @@ img#mining_circle{
         height: auto;
         
     }
+    .pad {
+        padding: 5vh;
+    }
   }
 
 .donate-mid div.right{
@@ -220,6 +223,8 @@ a.dropdown-item{
 }
 .footer .top p, h3{
     color:white;
+    font-family: 'Karla', sans-serif;
+
 }
 .footer .bottom{
     padding-bottom: 3vh;
