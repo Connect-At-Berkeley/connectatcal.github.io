@@ -8,7 +8,7 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
@@ -28,13 +28,13 @@
   </head>
 
   <body>
-    <div class="container-fluid"  style="background-color: #3C3C3C;">
+
+    <div class="container-fluid"  style="background-color: #ffffff;">
         <nav class="navbar navbar-dark">
             <div class="left">
-                <a href="index.html">
-                  <img id="logo" src="assets/img/logo.png">
+                <a href="index.html"> 
+                  <img src="assets/img/nav-logo.svg" width="300vw" height="auto"></img>
                 </a>
-                <h3> <a class="no-color-link" href="index.html">Connect@Cal </a></h3>
             </div>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
@@ -61,24 +61,28 @@
     </div>
 
         <div class="landing">
-            <img id="bear" src="assets/img/ourstory/bearsvg.svg">
+            <div style="padding-bottom: 20vh" class="col">
+                <img id="bear" height="600vh" width="auto" src="assets/img/ourstory/bearsvg.svg">
+            </div>
             <div class="col" id="bear-text">
-                <h2> Our Story</h2>
+                <div class="row">
+                    <h1>Our Story</h1>
+                </div>
                 <br>
                 <div class="row">
-                    <p>We strive to connect students to the 
-                            right resources at the right time. </p>
+                    <h4>We strive to connect students to the 
+                            right resources at the right time. </h4>
                     <button class="learn-more">Learn More</button>
                 </div>
                 <br>
             </div>
         </div>
 
-        <div class="bkg-circles-left">
+        <div class="bkg-circles-left reveal">
             <img style="height: 50vh;" src="assets/img/ourstory/leftcircles.svg">  
         </div>
 
-        <div class="row" style="padding: 15vw; padding-bottom:5vw;">
+        <div class="row reveal" style="padding: 15vw; padding-bottom:5vw;">
             <div class="col">
                 <div class="row">
                     <h2 class="mission"> Our Mission</h2>
@@ -94,7 +98,7 @@
                 <img  class="img-fluid" src="assets/img/ourstory/ourmission.png">
             </div>
         </div>
-        <div class="row" style="padding: 15vw; padding-bottom:5vw;">
+        <div class="row reveal" style="padding: 15vw; padding-bottom:5vw;">
             <div class="col">
                 <img class="img-fluid" src="assets/img/ourstory/ourvision.png">
             </div>
@@ -114,7 +118,7 @@
                 </div>
             </div>
         </div>
-        <div class="bkg-circles-right" style="display: flex; justify-content: flex-end;">
+        <div class="bkg-circles-right reveal" style="display: flex; justify-content: flex-end;">
             <div>
                 <img style="height: 40vh" src="assets/img/ourstory/rightcircles.svg">
             </div>
@@ -123,22 +127,23 @@
             <div class="top">
                 <div class="left">
                     <h3>Help Us Improve</h3>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScr-J-TCGklmGPwNNIspKng05tQWN6HGYrMc9ysidS8k0CDPw/viewform"><p>Give Feedback</p></a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfaH-2kq2ihm58lDqu3fUdyOXFDzpzotspphP7ij95Fq8cl4Q/viewform"><p>Report a Bug</p></a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcBAavl37oDS5k7CETTCHGKHVLMusXvEIOpG9NcREw8czrJg/viewform"><p>Partner With Us</p></a>
-                    <p id="myBtn2">Donate</p>
+                    <a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScr-J-TCGklmGPwNNIspKng05tQWN6HGYrMc9ysidS8k0CDPw/viewform"><p>Give Feedback</p></a>
+                    <a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfaH-2kq2ihm58lDqu3fUdyOXFDzpzotspphP7ij95Fq8cl4Q/viewform"><p>Report a Bug</p></a>
+                    <a target = "_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfcBAavl37oDS5k7CETTCHGKHVLMusXvEIOpG9NcREw8czrJg/viewform"><p>Partner With Us</p></a>
+                    <a href="/donate.html" id="myBtn2"><p>Donate</p></a>
+
                 </div>
                 <div class="mid">
                     <h3>Contact Us</h3>
                     <p>hello@connected@berkeley.edu</p>
                     <div class="socials">
-                        <p><a href="https://www.facebook.com/connect.cal/"><img src="assets/img/fb.png" alt="facebook logo link"></a></p>
-                        <p><a href="https://www.linkedin.com/company/connect-cal/"><img src="assets/img/in.png" alt="linkedin logo link"></a></p>
-                        <p><a href="https://www.instagram.com/connectcal/?hl=en"><img src="assets/img/insta.png" alt="instagram logo link"></a></p>
+                        <p><a target = "_blank" href="https://www.facebook.com/connect.cal/"><img src="assets/img/fb.png" alt="facebook logo link"></a></p>
+                        <p><a target = "_blank" href="https://www.linkedin.com/company/connect-cal/"><img src="assets/img/in.png" alt="linkedin logo link"></a></p>
+                        <p><a target = "_blank" href="https://www.instagram.com/connectcal/?hl=en"><img src="assets/img/insta.png" alt="instagram logo link"></a></p>
                     </div>
                 </div>
                 <div class="right">
-                    <a href="https://www.ocf.berkeley.edu/"><img class="ocf" src="assets/img/ocf.png" alt="hosted by the ocf image"></a>
+                    <a target = "_blank" href="https://www.ocf.berkeley.edu/"><img class="ocf" src="assets/img/ocf.png" alt="hosted by the ocf image"></a>
                     <p>We are a student group acting independently of the University of California. We take full responsibility for our organization and this website. </p>
                 </div>
             </div>
@@ -146,5 +151,7 @@
                 <p>Copyright @2021 Connect@Cal</p>
             </div>
         </div>
+        <script src="scripts/index.js"></script>
+
   </body>
 </html>

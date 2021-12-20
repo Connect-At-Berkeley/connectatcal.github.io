@@ -1,3 +1,18 @@
+/*****************************************/
+/**************ANIMATION***************/
+/*****************************************/
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 3s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+
 p, a{
     font-family: 'Karla', sans-serif;
 }
@@ -9,7 +24,7 @@ a{
 }
 
 h1{
-    font-family: 'Lora';
+    font-family: 'Karla', sans-serif;
 }
 h2{
     font-family: 'Karla', sans-serif;
@@ -42,10 +57,10 @@ img#campanile{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 12vh 12vw 12vh 12vw;
+    padding: 5vh 12vw 12vh 12vw;
 }
 .donate-top{
-    padding-top: 18vh;
+    padding-top: 10vh;
     padding-bottom: 0vh;
 }
 
@@ -139,7 +154,7 @@ h4 p{
 /**************BUTTONS STYLE***************/
 /*****************************************/
 .partners-button{
-    color: #3B3B3B;
+    color: #3B3B3B !important;
     background-color: #EED7A7;
     border: none;
     padding: 1.5vh 3vw;
@@ -149,13 +164,40 @@ h4 p{
     font-size: 15pt;
     font-weight: bold;
 }
+.partners-text{
+    color: #3B3B3B !important;
+    font-size: 15pt;
+    font-weight: bold;
+}
 
 /*****************************************/
 /**************HEADER STYLE***************/
 /*****************************************/
+.nav-link {
+    color: rgb(0, 0, 0) !important;
+    font-family: 'Karla', sans-serif !important;
+}
+.navbar .dropdown-menu {
+    background-color: #387EA5;
+  }
+  
+  .navbar .dropdown-item:hover {
+      background-color: #2B6180;
+      color: rgb(0, 0, 0);
+    }
+  .navbar .dropdown-item {
+      color: rgb(0, 0, 0);
+      font-family: 'Karla', sans-serif;
+  }
+
+
 a.nav-link{
     font-family: 'Karla', sans-serif;
-    color:white;
+    font-size: 18px;
+
+}
+a.dropdown-item{
+    font-size: 18px;
 }
 
 .navbar .left{
@@ -167,14 +209,14 @@ a.nav-link{
     height: 7vh;
     margin: 2vh 1vw 2vh 1vw;
 }
-
-justify-content-end{
-    align-items: center;
+.container-fluid{
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 20;
 }
 
-.nav-item{
-    margin-top:0px;
-}
+
 
 
 /*****************************************/
@@ -195,7 +237,7 @@ justify-content-end{
     color:white;
 }
 .footer .bottom{
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
     padding-top: 5vh;
 }
 .footer img{
@@ -301,7 +343,6 @@ img.ocf, .footer h3{
   }
 
   li {
-      margin-top:6vh;
       font-family: 'Karla';
   }
 
