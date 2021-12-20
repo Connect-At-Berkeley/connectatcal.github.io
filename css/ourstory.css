@@ -1,3 +1,16 @@
+/*****************************************/
+/**************ANIMATION***************/
+/*****************************************/
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 3s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
 .bkg-circles-right {
     z-index: -1;
 }
@@ -16,13 +29,11 @@ a {
     padding-top: 15vh;
     padding-left: 20vw;
 }
-#bear-text {
-    padding-top: 25vh;
-    padding-right: 9vw;
-    font-family: 'Lora', serif;
-}
+
 h2 {
     font-size: 36px !important;
+    font-family: 'Karla', sans-serif;
+
 }
 p {
     font-size: 20px;
@@ -46,10 +57,7 @@ p {
     color: white !important;
     font-family: 'Karla', sans-serif !important;
 }
-h1 {
-    color: white;
-    float: right;
-}
+
 .vision {
     text-align: end;
     font-family: 'Karla', sans-serif;
@@ -60,6 +68,12 @@ h1 {
     font: normal;
 
 }
+h1, h4 {
+    font-family: 'Karla', sans-serif;
+    color: black;
+
+}
+
 
 
 body{
@@ -120,26 +134,27 @@ button.learn-more{
 /**************HEADER STYLE***************/
 /*****************************************/
 .nav-link {
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
     font-family: 'Karla', sans-serif !important;
 }
 .navbar .dropdown-menu {
-    background-color: #056BA5;
+    background-color: #387EA5;
   }
   
   .navbar .dropdown-item:hover {
-      background-color: #0786cf;
-      color: white;
+      background-color: #2B6180;
+      color: rgb(0, 0, 0);
     }
   .navbar .dropdown-item {
-      color: white;
+      color: rgb(0, 0, 0);
       font-family: 'Karla', sans-serif;
   }
-  
+
 
 a.nav-link{
     font-family: 'Karla', sans-serif;
     font-size: 18px;
+    font-weight: bold;
 }
 a.dropdown-item{
     font-size: 18px;
@@ -160,6 +175,9 @@ a.dropdown-item{
     top: 0;
     z-index: 20;
 }
+
+
+
 
 /*****************************************/
 /**************FOOTER STYLE***************/

@@ -2,9 +2,13 @@
     color: white !important;
     font-family: 'Karla', sans-serif !important;
 }*/
+h2 {
+    font-family: 'Karla', sans-serif;
+
+}
 h1 {
     color: black;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Karla', sans-serif;
     position: absolute;
     /*left: 276px;*/
     left: 20vw;
@@ -71,7 +75,7 @@ img#leaf5 {
     border-radius: 10px;
     overflow: hidden;
     font-family: Karla, sans-serif;
-    background: #789DB7;
+    background: #612744;
     /*margin-left: 225px;*/
     margin: auto;
     z-index: 1;
@@ -136,19 +140,19 @@ img#leaf5 {
 /**************HEADER STYLE***************/
 /*****************************************/
 .nav-link {
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
     font-family: 'Karla', sans-serif !important;
 }
 .navbar .dropdown-menu {
-    background-color: #056BA5;
+    background-color: #387EA5;
   }
   
   .navbar .dropdown-item:hover {
-      background-color: #0786cf;
-      color: white;
+      background-color: #2B6180;
+      color: rgb(255, 255, 255);
     }
   .navbar .dropdown-item {
-      color: white;
+      color: rgb(255, 255, 255);
       font-family: 'Karla', sans-serif;
   }
 
@@ -156,7 +160,6 @@ img#leaf5 {
 a.nav-link{
     font-family: 'Karla', sans-serif;
     font-size: 18px;
-    font-weight: bold;
 }
 a.dropdown-item{
     font-size: 18px;
@@ -177,11 +180,6 @@ a.dropdown-item{
     top: 0;
     z-index: 20;
 }
-a.no-color-link {
-    color: white;
-    text-decoration: none;
-}
-
 /*****************************************/
 /**************FOOTER STYLE***************/
 /*****************************************/

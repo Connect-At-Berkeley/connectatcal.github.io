@@ -26,11 +26,12 @@
     <title>Connect @ Cal</title>
   </head>
   <body>
-    <div class="container-fluid"  style="background-color: #3C3C3C;">
+    <div class="container-fluid"  style="background-color: #ffffff;">
         <nav class="navbar navbar-dark">
             <div class="left">
-                <a href="index.html"><img id="logo" src="assets/img/logo.png"></a>
-                <h3> Connect@Cal</h3>
+                <a href="index.html"> 
+                  <img src="assets/img/nav-logo.svg" width="300vw" height="auto"></img>
+                </a>
             </div>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
@@ -60,8 +61,8 @@
         <img id="mining_circle" src="assets/img/mining_circle.svg" alt="mining circle image">
         <div class="right">
             <h1>Connect a Cal Student!</h1>
-            <p>Connect@Cal is proud to be a stepping stone in student’s success 
-                on and off-campus.</p>
+            <h4>Connect@Cal is proud to be a stepping stone in student’s success 
+                on and off-campus.</h4>
                 
             <!-- Trigger/Open The Modal -->
             <button class="donate-button" id="myBtn">Donate Now</button>
@@ -71,15 +72,16 @@
 
             <!-- Modal content -->
                 <div id="donate-popup" class="modal-content">
-                <div id="dp-top">
-                    <div class='online'>
+                <div class="row" id="dp-top">
+                    <span class="close">&times;</span>
+                    <div class='online col'>
                         <h3>Donate Online</h3>
                         <ol>
                             <li>Click <span><a style="color:#5e8f7a" href="https://asuc.org/donate/#section-1">here</a></span> to open our ASUC Donation Page</li>
                             <li>Type <span style="color:#6B9B87">"Connected at Berkeley"</span> for organization name!</li>
                         </ol>
                     </div>
-                    <div class='check'>
+                    <div class='check col'>
                           <h3>Mail a Check</h3>
                           <ol>
                             <li> Make checks payable to <span style="color:#6B9B87">"ASUC"</span>  or <span style="color:#6B9B87">Connect At Berkeley”</span></li>
@@ -94,20 +96,18 @@
                             </li>
                         </ol>
                     </div>
-                    <span class="close">&times;</span>
                 </div>
-                <h3 id='ty'>Thank You!</h3>
+                <div class="row" style="text-align: center; padding-top: 5vh;"> </div>
+                <h3 >Thank You!</h3>
                 </div>
             </div> 
         </div>
     </div>
-    <img class='donatedots' src='assets/img/donatedots.png' alt='colorful dots'>
-    <div class="donate-mid"> 
+    <img class='donatedots reveal' src='assets/img/donatedots.png' alt='colorful dots'>
+    <div class="donate-mid reveal"> 
         <div class="left">
-            <img class="mc_rings" src="assets/img/mining_circle_rings.svg" alt="mining circle rings image">
-            <h4 class="ring1"><p>220+</p>resources connected</h4>
-            <h4 class='ring2'><p>4.0 stars</p>overall rating</h4>
-            <h4 class='ring3'><p>75%</p>returning users</h4>
+            <img class="mc_rings" src="assets/img/donate-stats.svg" alt="mining circle rings image">
+
         </div>
         <div class="right">
             <h1>Why Donate?</h1>
@@ -130,7 +130,7 @@
             <button class="donate-button" id="myBtn1">Donate Now</button>
         </div>
     </div>
-    <div class="donate-bottom">
+    <div class="donate-bottom reveal">
         <p>*Connect At Berkeley is a sponsored student group of Associated Students of the University of California, a non-profit unincorporated association, IRS Code 501c3. Your donation to the ASUC on behalf of ASUC/Connect At Berkeley may be claimed as charitable. Documentation of the ASUC's Tax Identification or a tax deductible receipt is available upon request</p>
     </div>
     <div class="footer">
@@ -140,7 +140,7 @@
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScr-J-TCGklmGPwNNIspKng05tQWN6HGYrMc9ysidS8k0CDPw/viewform"><p>Give Feedback</p></a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfaH-2kq2ihm58lDqu3fUdyOXFDzpzotspphP7ij95Fq8cl4Q/viewform"><p>Report a Bug</p></a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcBAavl37oDS5k7CETTCHGKHVLMusXvEIOpG9NcREw8czrJg/viewform"><p>Partner With Us</p></a>
-                              <a href="/donate.html" id="myBtn2">Donate</a>
+                <a href="/donate.html" id="myBtn2"><p>Donate</p></a>
 
             </div>
             <div class="mid">
